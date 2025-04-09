@@ -1,0 +1,38 @@
+.cabecalho {
+    padding: 10%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cabecalho__menu__link {
+    color: var(--cor--terciaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        padding: 8%;
+    }
+
+    .cabecalho__menu {
+        gap: 80px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .cabecalho {
+        padding: 5%;
+    }
+
+    .cabecalho__menu {
+        padding: 0 5%;
+        justify-content: flex-start;
+    }
+}
