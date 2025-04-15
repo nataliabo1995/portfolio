@@ -1,0 +1,100 @@
+.certificados {
+}
+
+.certificados__subtitulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 2.25rem; 
+    text-align: center;
+    margin: 1em;
+}
+
+.swiper {
+    /*padding: 0 10px; /* Ajuste o valor conforme necessário */
+    width: 100%;
+    overflow: hidden;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: #f6f6f6;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #f03f09 !important;
+}
+
+.swiper-wrapper {
+    /*width: 5px; /* ou um valor fixo, como 1200px */
+    /*height: 400px; /* ajusta altura */
+    /*max-width: 1200px; /* Ajuste conforme necessário */
+    /* overflow: hidden;*/   
+}
+
+.swiper-slide {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden; /* Garante que a borda arredondada funcione com a imagem */
+    width: 100%;
+    /*max-width: 300px;
+    height: auto;
+    padding: 5%;
+    /*transition: transform 0.3s ease-in-out; /* Adiciona uma pequena animação ao passar o mouse */
+    background-color: var(--cor--card);
+    box-sizing: border-box;
+}
+
+.swiper-slide img{
+    padding: 5%;
+    width: 90%;
+    height: auto;
+}
+
+.swiper-texto {
+    padding: 5%;
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+    text-align: center;
+}
+
+.certificado__link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link {
+    padding: 5%;
+}
+
+.link img:hover {
+    transition: transform 0.2s ease-in-out; /* Adiciona uma pequena animação ao passar o mouse */
+    transform: scale(1.2); /* Pequeno efeito de zoom ao passar o mouse */
+}
+
+@media screen and (min-width: 770px) {
+    .certificados {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1024) {
+    .certificados {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1728) {
+    .certificados {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

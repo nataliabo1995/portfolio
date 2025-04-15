@@ -1,0 +1,86 @@
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7%;
+    gap: 60px;
+}
+
+.projetos__subtitulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 2.25rem; 
+}
+
+.projetos__lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projetos__card__link {
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    color: inherit; /* Herda a cor do texto do card */
+    display: block; /* Faz o link ocupar toda a largura do card */
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden; /* Garante que a borda arredondada funcione com a imagem */
+    height: 490px;
+    width: 300px; /* Defina a largura desejada */
+    /*box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);  /*sombra */
+    transition: transform 0.3s ease-in-out; /* Adiciona uma pequena animação ao passar o mouse */
+    background-color: var(--cor--card);
+}
+
+.card:hover {
+    transform: scale(1.05); /* Pequeno efeito de zoom ao passar o mouse */
+}
+
+.card__imagem {
+    width: 100%;
+    height: auto;
+    display: block; /* Remove espaço extra abaixo da imagem */
+}
+
+.card__descricao {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+}
+
+.card__descricao__titulo {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: var(--fonte-primaria);
+    font-size: 18px;
+}
+
+.card__descricao__texto {
+    font-family: var(--fonte-primaria);
+    font-size: 14px;
+}
+
+.card__linguagens {
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .projetos__lista {
+        gap: 5vw;
+    }
+
+    .projetos__lista {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .projetos__lista {
+        gap: 10vw;
+    }
+}
