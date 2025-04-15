@@ -1,4 +1,5 @@
 .certificados {
+    padding: 3% 0 5% 0;
 }
 
 .certificados__subtitulo {
@@ -83,15 +84,23 @@
     }
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
     .certificados {
-        width: 80%;
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
     }
 }
 
-@media screen and (min-width: 1728) {
+@media screen and (min-width: 1500px) {
+    .certificados {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
     .certificados {
         width: 50%;
         margin-left: auto;

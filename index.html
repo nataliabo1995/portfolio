@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="cabecalho">
-        <h2 class="cabecalho__titulo">&ltnati/&gt;</h2>
+        <h2 class="cabecalho__titulo">&ltnati&gt;</h2>
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
             <label for="menu" class="container__rotulo">
@@ -56,12 +56,9 @@
             <p class="apresentacao__conteudo__texto">Estou em busca de experiência na área de Front-end para aplicar meus conhecimentos e desenvolver novas habilidades. Vamos conversar?</p>
             <div class="apresentacao__links">
                 <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
-                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/natalia-batista-oliveira/" target="_blank">
-                    <img src="./assets/linkedin.png">
-                    Linkedin</a>
-                <a class="apresentacao__links__navegacao" href="https://github.com/nataliabo1995" target="_blank">
-                    <img src="./assets/github.png">
-                    GitHub</a>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/natalia-batista-oliveira/" target="_blank"><img src="./assets/linkedin.png">Linkedin</a>
+                <a class="apresentacao__links__navegacao" href="https://github.com/nataliabo1995" target="_blank"><img src="./assets/github.png">GitHub</a>
+                <a class="apresentacao__links__navegacao" href="./assets/CV.pdf" target="_blank"><img src="./assets/curriculum.png">Meu Currículo</a>
             </div>
         </section>
     </section>
@@ -151,7 +148,14 @@
     </section>
 
     <footer class="rodape">
-        <p>Desenvolvido por Natalia.</p>
+        <div class="rodape__descricao">
+            <h2>Desenvolvido por Natalia.</h2>
+            <p>Desenvolvedora Front-end</p>
+        </div>
+        <div class="rodape__icons">
+            <a class="rodape__links__navegacao" href="https://www.linkedin.com/in/natalia-batista-oliveira/" target="_blank"><img src="./assets/linkedin-black.png"></a>
+            <a class="rodape__links__navegacao" href="https://github.com/nataliabo1995" target="_blank"><img src="./assets/github-black.png"></a>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -187,7 +191,7 @@
                     initialSlide: 1,
                 },
                 1728: { // Para telas a partir de 1728px (desktop)
-                    spaceBetween: 200,
+                    spaceBetween: 150,
                     slidesPerView: 3,
                     centeredSlides: true,
                     initialSlide: 1,
