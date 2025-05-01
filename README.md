@@ -32,8 +32,11 @@ Espero que você goste do meu portfólio e que ele possa inspirar outros desenvo
 
 ## Visualização no Desktop
 
-![image](https://github.com/nataliabo1995/portfolio/blob/main/assets/portfolio.png)
+![image](https://github.com/nataliabo1995/portfolio/blob/main/assets/desktop%20portifolio.png)
 
+<!-- 
 ## Visualização Mobile
 
 ![image](https://github.com/nataliabo1995/portfolio/blob/main/assets/mobile.png)
+
+ -->
